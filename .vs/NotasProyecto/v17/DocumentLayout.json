@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo V\\Programacion III\\Api\\NotasProyecto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8EF24122-915A-438F-A64A-3119D28BAD1D}|Temporal\\Temporal.csproj|c:\\users\\jerem\\desktop\\universidad\\ciclo v\\programacion iii\\api\\notasproyecto\\temporal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8EF24122-915A-438F-A64A-3119D28BAD1D}|Temporal\\Temporal.csproj|solutionrelative:temporal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C0190EE6-FACE-4C9D-BDE3-E5ABFB06D3A3}|WebApi\\WebApi.csproj|c:\\users\\jerem\\desktop\\universidad\\ciclo v\\programacion iii\\api\\notasproyecto\\webapi\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0190EE6-FACE-4C9D-BDE3-E5ABFB06D3A3}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F274D49-1FAE-462C-BCB4-00882A162ACF}|rectBackend\\rectBackend.csproj|c:\\users\\jerem\\desktop\\universidad\\ciclo v\\programacion iii\\api\\notasproyecto\\rectbackend\\models\\alumnoasignatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -47,6 +47,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ValuesController.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo V\\Programacion III\\Api\\NotasProyecto\\WebApi\\Controllers\\ValuesController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\ValuesController.cs",
+              "ToolTip": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo V\\Programacion III\\Api\\NotasProyecto\\WebApi\\Controllers\\ValuesController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\ValuesController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T21:54:50.871Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -69,22 +82,9 @@
               "RelativeDocumentMoniker": "rectBackend\\Models\\AlumnoAsignatura.cs",
               "ToolTip": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo V\\Programacion III\\Api\\NotasProyecto\\rectBackend\\Models\\AlumnoAsignatura.cs",
               "RelativeToolTip": "rectBackend\\Models\\AlumnoAsignatura.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-03T16:42:32.599Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo V\\Programacion III\\Api\\NotasProyecto\\Temporal\\Program.cs",
-              "RelativeDocumentMoniker": "Temporal\\Program.cs",
-              "ToolTip": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo V\\Programacion III\\Api\\NotasProyecto\\Temporal\\Program.cs",
-              "RelativeToolTip": "Temporal\\Program.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAC0AAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T15:18:34.542Z",
               "EditorCaption": ""
             },
             {
@@ -97,8 +97,7 @@
               "RelativeToolTip": "rectBackend\\Repository\\AlumnoDao.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T14:15:59.379Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-03T14:15:59.379Z"
             },
             {
               "$type": "Document",
@@ -110,8 +109,7 @@
               "RelativeToolTip": "rectBackend\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T13:51:13.788Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-03T13:51:13.788Z"
             }
           ]
         }

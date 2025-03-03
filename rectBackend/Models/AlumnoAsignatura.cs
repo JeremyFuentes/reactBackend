@@ -8,7 +8,7 @@ namespace rectBackend.Models
 {
     public class AlumnoAsignatura
     {
-        public string nombreAlumno { get; set; } = null;
-        public string nombreAsignatura { get; set; } = null;
+        public string nombreAlumno { get; set; } = null!;
+        public string nombreAsignatura { get; set; } = null!;
     }
 }
