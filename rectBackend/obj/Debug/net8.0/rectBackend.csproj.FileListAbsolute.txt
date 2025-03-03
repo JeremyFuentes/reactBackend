@@ -12,3 +12,4 @@ C:\Users\jerem\Desktop\Universidad\Ciclo V\Programacion III\Api\NotasProyecto\re
 C:\Users\jerem\Desktop\Universidad\Ciclo V\Programacion III\Api\NotasProyecto\rectBackend\obj\Debug\net8.0\rectBackend.pdb
 C:\Users\jerem\Desktop\Universidad\Ciclo V\Programacion III\Api\NotasProyecto\rectBackend\obj\Debug\net8.0\rectBackend.genruntimeconfig.cache
 C:\Users\jerem\Desktop\Universidad\Ciclo V\Programacion III\Api\NotasProyecto\rectBackend\obj\Debug\net8.0\ref\rectBackend.dll
+C:\Users\jerem\Desktop\Universidad\Ciclo V\Programacion III\Api\NotasProyecto\rectBackend\obj\Debug\net8.0\rectBackend.sourcelink.json
