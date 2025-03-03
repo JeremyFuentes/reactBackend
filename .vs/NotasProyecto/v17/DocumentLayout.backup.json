@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo V\\Programacion III\\Api\\NotasProyecto\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0F274D49-1FAE-462C-BCB4-00882A162ACF}|rectBackend\\rectBackend.csproj|c:\\users\\jerem\\desktop\\universidad\\ciclo v\\programacion iii\\api\\notasproyecto\\rectbackend\\models\\profesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F274D49-1FAE-462C-BCB4-00882A162ACF}|rectBackend\\rectBackend.csproj|solutionrelative:rectbackend\\models\\profesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0190EE6-FACE-4C9D-BDE3-E5ABFB06D3A3}|WebApi\\WebApi.csproj|c:\\users\\jerem\\desktop\\universidad\\ciclo v\\programacion iii\\api\\notasproyecto\\webapi\\controllers\\profesorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0190EE6-FACE-4C9D-BDE3-E5ABFB06D3A3}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\profesorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C0190EE6-FACE-4C9D-BDE3-E5ABFB06D3A3}|WebApi\\WebApi.csproj|c:\\users\\jerem\\desktop\\universidad\\ciclo v\\programacion iii\\api\\notasproyecto\\webapi\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0190EE6-FACE-4C9D-BDE3-E5ABFB06D3A3}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F274D49-1FAE-462C-BCB4-00882A162ACF}|rectBackend\\rectBackend.csproj|c:\\users\\jerem\\desktop\\universidad\\ciclo v\\programacion iii\\api\\notasproyecto\\rectbackend\\repository\\profesordao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F274D49-1FAE-462C-BCB4-00882A162ACF}|rectBackend\\rectBackend.csproj|solutionrelative:rectbackend\\repository\\profesordao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F274D49-1FAE-462C-BCB4-00882A162ACF}|rectBackend\\rectBackend.csproj|c:\\users\\jerem\\desktop\\universidad\\ciclo v\\programacion iii\\api\\notasproyecto\\rectbackend\\models\\alumnoasignatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,19 +63,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Profesor.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo V\\Programacion III\\Api\\NotasProyecto\\rectBackend\\Models\\Profesor.cs",
+              "RelativeDocumentMoniker": "rectBackend\\Models\\Profesor.cs",
+              "ToolTip": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo V\\Programacion III\\Api\\NotasProyecto\\rectBackend\\Models\\Profesor.cs",
+              "RelativeToolTip": "rectBackend\\Models\\Profesor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T22:45:21.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProfesorDao.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo V\\Programacion III\\Api\\NotasProyecto\\rectBackend\\Repository\\ProfesorDao.cs",
+              "RelativeDocumentMoniker": "rectBackend\\Repository\\ProfesorDao.cs",
+              "ToolTip": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo V\\Programacion III\\Api\\NotasProyecto\\rectBackend\\Repository\\ProfesorDao.cs",
+              "RelativeToolTip": "rectBackend\\Repository\\ProfesorDao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAD4vxcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T22:20:14.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProfesorController.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo V\\Programacion III\\Api\\NotasProyecto\\WebApi\\Controllers\\ProfesorController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\ProfesorController.cs",
+              "ToolTip": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo V\\Programacion III\\Api\\NotasProyecto\\WebApi\\Controllers\\ProfesorController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\ProfesorController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAD4vw8AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T22:11:20.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ValuesController.cs",
               "DocumentMoniker": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo V\\Programacion III\\Api\\NotasProyecto\\WebApi\\Controllers\\ValuesController.cs",
               "RelativeDocumentMoniker": "WebApi\\Controllers\\ValuesController.cs",
               "ToolTip": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo V\\Programacion III\\Api\\NotasProyecto\\WebApi\\Controllers\\ValuesController.cs",
               "RelativeToolTip": "WebApi\\Controllers\\ValuesController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-03T21:54:50.871Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Alumno.cs",
               "DocumentMoniker": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo V\\Programacion III\\Api\\NotasProyecto\\rectBackend\\Models\\Alumno.cs",
               "RelativeDocumentMoniker": "rectBackend\\Models\\Alumno.cs",
@@ -71,12 +122,11 @@
               "RelativeToolTip": "rectBackend\\Models\\Alumno.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T17:13:12.968Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-03T17:13:12.968Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "AlumnoAsignatura.cs",
               "DocumentMoniker": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo V\\Programacion III\\Api\\NotasProyecto\\rectBackend\\Models\\AlumnoAsignatura.cs",
               "RelativeDocumentMoniker": "rectBackend\\Models\\AlumnoAsignatura.cs",
@@ -84,12 +134,11 @@
               "RelativeToolTip": "rectBackend\\Models\\AlumnoAsignatura.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T16:42:32.599Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-03T16:42:32.599Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "AlumnoDao.cs",
               "DocumentMoniker": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo V\\Programacion III\\Api\\NotasProyecto\\rectBackend\\Repository\\AlumnoDao.cs",
               "RelativeDocumentMoniker": "rectBackend\\Repository\\AlumnoDao.cs",
@@ -101,7 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo V\\Programacion III\\Api\\NotasProyecto\\rectBackend\\Class1.cs",
               "RelativeDocumentMoniker": "rectBackend\\Class1.cs",
