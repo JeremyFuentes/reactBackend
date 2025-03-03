@@ -122,6 +122,13 @@ namespace rectBackend.Repository
 
             return listadoALumno.ToList();
         }
+
         #endregion
+
+        public Alumno? GetById(int id)
+        {
+            var alumno = contexto.Alumnos.Where(x => x.Id == id).FirstOrDefault();
+            return alumno == null ? null : alumno;
+        }
     }
 }
