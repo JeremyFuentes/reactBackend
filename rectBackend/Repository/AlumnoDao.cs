@@ -29,5 +29,62 @@ namespace rectBackend.Repository
             return alumno == null ? new Alumno() : alumno;
         }
         #endregion
+
+        #region update alumno
+        public bool Update(int id, Alumno actualizar)
+        {
+            try
+            {
+                var alumnoUpdate = GettById(id);
+
+                if (alumnoUpdate == null)
+                {
+                    Console.WriteLine("No se encontro el alumno");
+                    return false;
+                }
+
+                alumnoUpdate.Direccion = actualizar.Direccion;
+                alumnoUpdate.Dni = actualizar.Dni;
+                alumnoUpdate.Nombre = actualizar.Nombre;
+                alumnoUpdate.Edad = actualizar.Edad;
+                alumnoUpdate.Email = actualizar.Email;
+
+                contexto.Alumnos.Update(alumnoUpdate);
+                contexto.SaveChanges();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error: " + ex.InnerException);
+                return false;
+            }
+        }
+        #endregion
+
+        #region Delete
+        public bool DeleteAlumno(int id)
+        {
+            try
+            {
+                var alumnoDelete = GettById(id);
+                if (alumnoDelete == null)
+                {
+                    Console.WriteLine("No se encontro el alumno");
+                    return false;
+                }
+                else
+                {
+                    contexto.Alumnos.Remove(alumnoDelete);
+                    contexto.SaveChanges();
+                    return true;
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.InnerException);
+                return false;
+            }
+        }
+        #endregion
     }
 }
