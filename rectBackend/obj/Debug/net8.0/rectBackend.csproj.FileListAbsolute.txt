@@ -1,0 +1,14 @@
+C:\Users\jerem\Desktop\Universidad\Ciclo V\Programacion III\Api\NotasProyecto\rectBackend\bin\Debug\net8.0\rectBackend.deps.json
+C:\Users\jerem\Desktop\Universidad\Ciclo V\Programacion III\Api\NotasProyecto\rectBackend\bin\Debug\net8.0\rectBackend.runtimeconfig.json
+C:\Users\jerem\Desktop\Universidad\Ciclo V\Programacion III\Api\NotasProyecto\rectBackend\bin\Debug\net8.0\rectBackend.dll
+C:\Users\jerem\Desktop\Universidad\Ciclo V\Programacion III\Api\NotasProyecto\rectBackend\bin\Debug\net8.0\rectBackend.pdb
+C:\Users\jerem\Desktop\Universidad\Ciclo V\Programacion III\Api\NotasProyecto\rectBackend\obj\Debug\net8.0\rectBackend.csproj.AssemblyReference.cache
+C:\Users\jerem\Desktop\Universidad\Ciclo V\Programacion III\Api\NotasProyecto\rectBackend\obj\Debug\net8.0\rectBackend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jerem\Desktop\Universidad\Ciclo V\Programacion III\Api\NotasProyecto\rectBackend\obj\Debug\net8.0\rectBackend.AssemblyInfoInputs.cache
+C:\Users\jerem\Desktop\Universidad\Ciclo V\Programacion III\Api\NotasProyecto\rectBackend\obj\Debug\net8.0\rectBackend.AssemblyInfo.cs
+C:\Users\jerem\Desktop\Universidad\Ciclo V\Programacion III\Api\NotasProyecto\rectBackend\obj\Debug\net8.0\rectBackend.csproj.CoreCompileInputs.cache
+C:\Users\jerem\Desktop\Universidad\Ciclo V\Programacion III\Api\NotasProyecto\rectBackend\obj\Debug\net8.0\rectBackend.dll
+C:\Users\jerem\Desktop\Universidad\Ciclo V\Programacion III\Api\NotasProyecto\rectBackend\obj\Debug\net8.0\refint\rectBackend.dll
+C:\Users\jerem\Desktop\Universidad\Ciclo V\Programacion III\Api\NotasProyecto\rectBackend\obj\Debug\net8.0\rectBackend.pdb
+C:\Users\jerem\Desktop\Universidad\Ciclo V\Programacion III\Api\NotasProyecto\rectBackend\obj\Debug\net8.0\rectBackend.genruntimeconfig.cache
+C:\Users\jerem\Desktop\Universidad\Ciclo V\Programacion III\Api\NotasProyecto\rectBackend\obj\Debug\net8.0\ref\rectBackend.dll
