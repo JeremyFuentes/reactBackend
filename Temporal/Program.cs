@@ -6,7 +6,7 @@ AlumnoDao alumnoDao = new AlumnoDao();
 var alumnos = alumnoDao.SelectAll();
 foreach (var item in alumnos)
 {
-    Console.WriteLine(item.Nombre);
+    Console.WriteLine($"{item.Id}, {item.Nombre}");
 }
 #endregion
 
@@ -33,9 +33,17 @@ var resultado2 = alumnoDao.Update(2, nuevoAlumno2);
 Console.WriteLine(resultado2);
 #endregion
 
-Console.WriteLine("");
-
 #region Delete
 var result = alumnoDao.DeleteAlumno(14);
 Console.WriteLine("Se elimino " + result);
+#endregion
+
+#region AlumnosAsignatura desde un Jooin
+var alumAsig = alumnoDao.SelectAlumAsig();
+
+foreach (AlumnoAsignatura AlumAsig2 in alumAsig)
+{
+    Console.WriteLine(AlumAsig2.nombreAlumno + " Asignatura que curso "
+        + AlumAsig2.nombreAsignatura);
+}
 #endregion
