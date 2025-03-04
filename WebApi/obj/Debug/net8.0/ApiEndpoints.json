@@ -1,7 +1,7 @@
 [
   {
     "ContainingType": "WebApi.Controllers.AlumnoController",
-    "Method": "selectById",
+    "Method": "seletById",
     "RelativePath": "api/alumno",
     "HttpMethod": "GET",
     "IsController": true,
@@ -37,6 +37,37 @@
         "Name": "alumno",
         "Type": "rectBackend.Models.Alumno",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApi.Controllers.AlumnoController",
+    "Method": "insertarMatricula",
+    "RelativePath": "api/alumno",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "alumno",
+        "Type": "rectBackend.Models.Alumno",
+        "IsRequired": true
+      },
+      {
+        "Name": "idAsignatura",
+        "Type": "System.Int32",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": [

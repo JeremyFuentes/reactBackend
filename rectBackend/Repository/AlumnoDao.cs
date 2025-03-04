@@ -10,7 +10,7 @@ namespace rectBackend.Repository
 {
     public class AlumnoDao
     {
-        #region Context
+        #region Contex
         public RegistroAlumnoContext contexto = new RegistroAlumnoContext();
         #endregion
 
@@ -21,75 +21,102 @@ namespace rectBackend.Repository
             return alumno;
         }
         #endregion
-
-        #region Select By Id
-        public Alumno GettById(int id)
+        
+        #region Selecionamos por Id
+        public Alumno? GetById(int id)
         {
             var alumno = contexto.Alumnos.Where(x => x.Id == id).FirstOrDefault();
-            return alumno == null ? new Alumno() : alumno;
+            return alumno == null ? null : alumno;
         }
         #endregion
-
-        #region update alumno
-        public bool Update(int id, Alumno actualizar)
+        
+        #region Insertar
+        public bool insertarAlumno(Alumno alumno)
         {
             try
             {
-                var alumnoUpdate = GettById(id);
+                var alum = new Alumno
+                {
+                    Direccion = alumno.Direccion,
+                    Edad = alumno.Edad,
+                    Email = alumno.Email,
+                    Dni = alumno.Dni,
+                    Nombre = alumno.Nombre,
+                };
+                contexto.Alumnos.Add(alum);
+
+                contexto.SaveChanges();
+                return true;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.InnerException);
+                return false;
+            }
+        }
+        #endregion
+        
+        #region update alumno 
+        public bool update(int id, Alumno actualizar)
+        {
+            try
+            {
+                var alumnoUpdate = GetById(id);
 
                 if (alumnoUpdate == null)
                 {
-                    Console.WriteLine("No se encontro el alumno");
+                    Console.WriteLine("Alumno es null");
                     return false;
                 }
 
                 alumnoUpdate.Direccion = actualizar.Direccion;
                 alumnoUpdate.Dni = actualizar.Dni;
                 alumnoUpdate.Nombre = actualizar.Nombre;
-                alumnoUpdate.Edad = actualizar.Edad;
                 alumnoUpdate.Email = actualizar.Email;
 
                 contexto.Alumnos.Update(alumnoUpdate);
                 contexto.SaveChanges();
                 return true;
             }
-            catch (Exception ex)
+            catch (Exception e)
             {
-                Console.WriteLine("Error: " + ex.InnerException);
+                Console.WriteLine(e.InnerException);
                 return false;
             }
         }
         #endregion
-
+        
         #region Delete
-        public bool DeleteAlumno(int id)
+
+        public bool deleteAlumno(int id)
         {
+            var borrar = GetById(id);
             try
             {
-                var alumnoDelete = GettById(id);
-                if (alumnoDelete == null)
+                if (borrar == null)
                 {
-                    Console.WriteLine("No se encontro el alumno");
                     return false;
                 }
                 else
                 {
-                    contexto.Alumnos.Remove(alumnoDelete);
+                    contexto.Alumnos.Remove(borrar);
                     contexto.SaveChanges();
                     return true;
                 }
+
             }
-            catch (Exception ex)
+            catch (Exception e)
             {
-                Console.WriteLine(ex.InnerException);
+                Console.WriteLine(e.InnerException);
                 return false;
             }
         }
         #endregion
-
-        #region Leftjoin
-        public List<AlumnoAsignatura> SelectAlumAsig()
+        
+        #region LeftJoin
+        public List<AlumnoAsignatura> SelectAlumASig()
         {
+
             var consulta = from a in contexto.Alumnos
                            join m in contexto.Matriculas on a.Id equals m.AlumnoId
                            join asig in contexto.Asignaturas on m.AsignaturaId equals asig.Id
@@ -98,11 +125,22 @@ namespace rectBackend.Repository
                                nombreAlumno = a.Nombre,
                                nombreAsignatura = asig.Nombre
                            };
-            return consulta.ToList();
+
+            try
+            {
+                return consulta.ToList();
+
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine();
+                return null;
+            }
+
         }
         #endregion
-
-        #region AlumnoProfesor
+        
+        #region leftJoinAlumnoMAtriculaMateria
         public List<AlumnoProfesor> alumnoProfesors(string nombreProfesor)
         {
             var listadoALumno = from a in contexto.Alumnos
@@ -122,13 +160,70 @@ namespace rectBackend.Repository
 
             return listadoALumno.ToList();
         }
-
         #endregion
-
-        public Alumno? GetById(int id)
+        
+        #region SelccionarPorDni
+        public Alumno DNIAlumno(Alumno alumno)
         {
-            var alumno = contexto.Alumnos.Where(x => x.Id == id).FirstOrDefault();
-            return alumno == null ? null : alumno;
+            var alumnos = contexto.Alumnos.Where(x => x.Dni == alumno.Dni).FirstOrDefault();
+            return alumnos == null ? null : alumnos;
         }
+        #endregion
+        
+        #region AlumnoMatricula
+        public bool InsertarMatricula(Alumno alumno, int idAsing)
+        {
+
+            try
+            {
+                var alumnoDNI = DNIAlumno(alumno);
+                //si existe solo lo añadimos pero si no lo debemos de insertar
+                if (alumnoDNI == null)
+                {
+                    insertarAlumno(alumno);
+                    // si en null creamos el alumno pero ahora debemos de matricular el alumno con el Dni que corresponda
+                    var alumnoInsertado = DNIAlumno(alumno);
+                    // ahora debemos crear un objeto matricula para poder hacer la insercion de ambas llaves
+                    var unirAlumnoMatricula = matriculaAsignaturaALumno(alumno, idAsing);
+                    if (unirAlumnoMatricula == false)
+                    {
+                        return false;
+                    }
+                    return true;
+                }
+                else
+                {
+                    matriculaAsignaturaALumno(alumnoDNI, idAsing);
+                    return true;
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return false;
+            }
+        }
+        #endregion
+        
+        #region Matriucla
+        public bool matriculaAsignaturaALumno(Alumno alumno, int idAsignatura)
+        {
+            try
+            {
+                Matricula matricula = new Matricula();
+                matricula.AlumnoId = alumno.Id;
+                matricula.AsignaturaId = idAsignatura;
+                contexto.Matriculas.Add(matricula);
+                contexto.SaveChanges();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return false;
+            }
+        }
+        #endregion
     }
 }
+

@@ -9,29 +9,43 @@ namespace WebApi.Controllers
     [ApiController]
     public class AlumnoController : ControllerBase
     {
+        #region AlumnoDaoInstancia
         private AlumnoDao _dao = new AlumnoDao();
+        #endregion
 
-        #region endPointAlumnoProfesor
+        #region endPonitAlumnoProfesor
         [HttpGet("alumnoProfesor")]
         public List<AlumnoProfesor> GetAlumnoProfesor(string usuario)
         {
             return _dao.alumnoProfesors(usuario);
         }
+
         #endregion
 
-        #region selectByID
+        #region SelectByID
         [HttpGet("alumno")]
-        public Alumno selectById(int id)
+        public Alumno seletById(int id)
         {
-            var alumno = _dao.GettById(id);
+            var alumno = _dao.GetById(id);
             return alumno;
         }
         #endregion
 
+        #region ActualizarDatos
+
         [HttpPut("alumno")]
         public bool actualizarAlumno([FromBody] Alumno alumno)
         {
-            return _dao.Update(alumno.Id, alumno);
+            return _dao.update(alumno.Id, alumno);
         }
+        #endregion
+
+        #region AlumnoMatricula
+        [HttpPost("alumno")]
+        public bool insertarMatricula([FromBody] Alumno alumno, int idAsignatura)
+        {
+            return _dao.InsertarMatricula(alumno, idAsignatura);
+        }
+        #endregion
     }
 }
