@@ -161,6 +161,32 @@
     ]
   },
   {
+    "ContainingType": "WebApi.Controllers.CalificacionesController",
+    "Method": "get",
+    "RelativePath": "api/calificaciones",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idMatricula",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[rectBackend.Models.Calificacion, rectBackend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "WebApi.Controllers.ValuesController",
     "Method": "Get",
     "RelativePath": "api/Values/Prueba",

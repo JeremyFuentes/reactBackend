@@ -133,7 +133,7 @@ namespace rectBackend.Repository
             }
             catch (Exception e)
             {
-                Console.WriteLine();
+                Console.WriteLine(e.Message);
                 return null;
             }
 

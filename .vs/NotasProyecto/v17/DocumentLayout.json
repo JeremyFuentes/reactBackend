@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo V\\Programacion III\\Api\\NotasProyecto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0F274D49-1FAE-462C-BCB4-00882A162ACF}|rectBackend\\rectBackend.csproj|c:\\users\\jerem\\desktop\\universidad\\ciclo v\\programacion iii\\api\\notasproyecto\\rectbackend\\repository\\alumnodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F274D49-1FAE-462C-BCB4-00882A162ACF}|rectBackend\\rectBackend.csproj|solutionrelative:rectbackend\\repository\\alumnodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F274D49-1FAE-462C-BCB4-00882A162ACF}|rectBackend\\rectBackend.csproj|c:\\users\\jerem\\desktop\\universidad\\ciclo v\\programacion iii\\api\\notasproyecto\\rectbackend\\repository\\calificaciondao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F274D49-1FAE-462C-BCB4-00882A162ACF}|rectBackend\\rectBackend.csproj|solutionrelative:rectbackend\\repository\\calificaciondao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0190EE6-FACE-4C9D-BDE3-E5ABFB06D3A3}|WebApi\\WebApi.csproj|c:\\users\\jerem\\desktop\\universidad\\ciclo v\\programacion iii\\api\\notasproyecto\\webapi\\controllers\\alumnocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0190EE6-FACE-4C9D-BDE3-E5ABFB06D3A3}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\alumnocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C0190EE6-FACE-4C9D-BDE3-E5ABFB06D3A3}|WebApi\\WebApi.csproj|c:\\users\\jerem\\desktop\\universidad\\ciclo v\\programacion iii\\api\\notasproyecto\\webapi\\controllers\\calificacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0190EE6-FACE-4C9D-BDE3-E5ABFB06D3A3}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\calificacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F274D49-1FAE-462C-BCB4-00882A162ACF}|rectBackend\\rectBackend.csproj|c:\\users\\jerem\\desktop\\universidad\\ciclo v\\programacion iii\\api\\notasproyecto\\rectbackend\\models\\profesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F274D49-1FAE-462C-BCB4-00882A162ACF}|rectBackend\\rectBackend.csproj|solutionrelative:rectbackend\\models\\profesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0190EE6-FACE-4C9D-BDE3-E5ABFB06D3A3}|WebApi\\WebApi.csproj|c:\\users\\jerem\\desktop\\universidad\\ciclo v\\programacion iii\\api\\notasproyecto\\webapi\\controllers\\alumnocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0190EE6-FACE-4C9D-BDE3-E5ABFB06D3A3}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\alumnocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C0190EE6-FACE-4C9D-BDE3-E5ABFB06D3A3}|WebApi\\WebApi.csproj|c:\\users\\jerem\\desktop\\universidad\\ciclo v\\programacion iii\\api\\notasproyecto\\webapi\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0F274D49-1FAE-462C-BCB4-00882A162ACF}|rectBackend\\rectBackend.csproj|c:\\users\\jerem\\desktop\\universidad\\ciclo v\\programacion iii\\api\\notasproyecto\\rectbackend\\models\\alumnoasignatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F274D49-1FAE-462C-BCB4-00882A162ACF}|rectBackend\\rectBackend.csproj|solutionrelative:rectbackend\\models\\alumnoasignatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F274D49-1FAE-462C-BCB4-00882A162ACF}|rectBackend\\rectBackend.csproj|c:\\users\\jerem\\desktop\\universidad\\ciclo v\\programacion iii\\api\\notasproyecto\\rectbackend\\models\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F274D49-1FAE-462C-BCB4-00882A162ACF}|rectBackend\\rectBackend.csproj|solutionrelative:rectbackend\\models\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F274D49-1FAE-462C-BCB4-00882A162ACF}|rectBackend\\rectBackend.csproj|c:\\users\\jerem\\desktop\\universidad\\ciclo v\\programacion iii\\api\\notasproyecto\\rectbackend\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,7 +51,8 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-03T22:45:21.853Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -72,19 +73,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AlumnoDao.cs",
-              "DocumentMoniker": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo V\\Programacion III\\Api\\NotasProyecto\\rectBackend\\Repository\\AlumnoDao.cs",
-              "RelativeDocumentMoniker": "rectBackend\\Repository\\AlumnoDao.cs",
-              "ToolTip": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo V\\Programacion III\\Api\\NotasProyecto\\rectBackend\\Repository\\AlumnoDao.cs",
-              "RelativeToolTip": "rectBackend\\Repository\\AlumnoDao.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAiwAgBAAASAAAAAAAAAA==",
+              "Title": "CalificacionDao.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo V\\Programacion III\\Api\\NotasProyecto\\rectBackend\\Repository\\CalificacionDao.cs",
+              "RelativeDocumentMoniker": "rectBackend\\Repository\\CalificacionDao.cs",
+              "ToolTip": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo V\\Programacion III\\Api\\NotasProyecto\\rectBackend\\Repository\\CalificacionDao.cs",
+              "RelativeToolTip": "rectBackend\\Repository\\CalificacionDao.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAmwC0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T14:15:59.379Z",
+              "WhenOpened": "2025-03-04T01:50:33.181Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "CalificacionesController.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo V\\Programacion III\\Api\\NotasProyecto\\WebApi\\Controllers\\CalificacionesController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\CalificacionesController.cs",
+              "ToolTip": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo V\\Programacion III\\Api\\NotasProyecto\\WebApi\\Controllers\\CalificacionesController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\CalificacionesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T01:49:51.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "AlumnoController.cs",
               "DocumentMoniker": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo V\\Programacion III\\Api\\NotasProyecto\\WebApi\\Controllers\\AlumnoController.cs",
               "RelativeDocumentMoniker": "WebApi\\Controllers\\AlumnoController.cs",
@@ -92,12 +106,11 @@
               "RelativeToolTip": "WebApi\\Controllers\\AlumnoController.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAmwDcAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T22:51:54.232Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-03T22:51:54.232Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ValuesController.cs",
               "DocumentMoniker": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo V\\Programacion III\\Api\\NotasProyecto\\WebApi\\Controllers\\ValuesController.cs",
               "RelativeDocumentMoniker": "WebApi\\Controllers\\ValuesController.cs",
@@ -110,18 +123,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Alumno.cs",
-              "DocumentMoniker": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo V\\Programacion III\\Api\\NotasProyecto\\rectBackend\\Models\\Alumno.cs",
-              "RelativeDocumentMoniker": "rectBackend\\Models\\Alumno.cs",
-              "ToolTip": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo V\\Programacion III\\Api\\NotasProyecto\\rectBackend\\Models\\Alumno.cs",
-              "RelativeToolTip": "rectBackend\\Models\\Alumno.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T17:13:12.968Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "AlumnoAsignatura.cs",
               "DocumentMoniker": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo V\\Programacion III\\Api\\NotasProyecto\\rectBackend\\Models\\AlumnoAsignatura.cs",
               "RelativeDocumentMoniker": "rectBackend\\Models\\AlumnoAsignatura.cs",
